@@ -1,0 +1,1 @@
+ALTER TABLE `notifications` MODIFY COLUMN `type` enum('listing_created','listing_status_changed','new_interest','new_message') NOT NULL;

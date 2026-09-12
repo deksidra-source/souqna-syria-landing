@@ -32,3 +32,12 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Souqna web/mobile generated and secret files
+node_modules/
+dist/
+.expo/
+.env
+.env.*
+!.env.example
+.project-config.json

@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "سوقنا سوريا",
+    "slug": "souqna-syria-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "souqna",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFF9EE"
+    },
+    "android": {
+      "package": "com.souqna.syria",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFF9EE"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.souqna.syria",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSPhotoLibraryUsageDescription": "يحتاج سوقنا سوريا إلى الصور لإرفاقها بإعلانك.",
+        "NSLocationWhenInUseUsageDescription": "يحتاج سوقنا سوريا إلى الموقع لعرض موقع الإعلان التقريبي."
+      }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "microphonePermission": false
+        }
+      ],
+      "expo-location"
+    ]
+  }
+}
